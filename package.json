@@ -1,0 +1,23 @@
+{
+  "name": "travis-test",
+  "version": "0.0.0",
+  "description": "Testing integration with Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/install/travis-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/install/travis-test/issues"
+  },
+  "homepage": "https://github.com/install/travis-test",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "chai": "^3.0.0"
+  }
+}
